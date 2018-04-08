@@ -1,0 +1,26 @@
+#################
+venvwrapper
+#################
+
+venvwrapper is a set of extensions to Python 3 venv module. The extensions include
+wrappers for creating and deleting virtual environments and otherwise
+managing your development workflow, making it easier to work on more
+than one project at a time without introducing conflicts in their
+dependencies.
+
+This is a direct port of Doug Hellmann's virtualenvwrapper
+
+=================
+Installation
+=================
+
+#  1. Add a line like "source /path/to/this/file/venvwrapper.sh"
+#     to your .bashrc.
+#  2. Run: source ~/.bashrc
+#  3. Run: workonvenv
+#  4. A list of environments, empty, is printed.
+#  5. Run: mkvenv temp
+#  6. Run: workonvenv
+#  7. This time, the "temp" environment is included.
+#  8. Run: workonvenv temp
+#  9. The virtual environment is activated.
